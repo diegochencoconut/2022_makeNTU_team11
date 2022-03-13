@@ -56,7 +56,6 @@ router.post('/', jsonParser, async (req, res) => {
     }
 });
 
-//TODO
 router.patch('/:room', jsonParser, async(req, res)=>{
     try
     {

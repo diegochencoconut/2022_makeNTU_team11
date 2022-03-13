@@ -4,7 +4,7 @@ const Post = require('../models/Add_meal');
 const bodyParser = require('body-parser')
 const jsonParser = bodyParser.json()
 
-router.get('/', async (req, res) => {
+/*router.get('/', async (req, res) => {
     try
     {
         const posts = await Post.find();
@@ -30,7 +30,7 @@ router.get('/:room_number', async (req, res) => {
     {
         res.json({message:err});
     }
-});
+});*/
 
 router.post('/', jsonParser, async (req, res) => {
     const post = new Post({

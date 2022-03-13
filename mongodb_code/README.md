@@ -6,7 +6,9 @@ Use following code to setup:
     import requests
     import json
 
-    preurl = "http://*ip_address:port/*"
+    preurl = "http://*ip_address:port*/"
+    # example: "http://170.1.1.1:3000/"
+    # Don't forget to add slash at the end!
     # Remember to connect to same wifi as database!
     # default port: 3000
     headers = {'Content-type': 'application/json', 'Accept': 'text/plain'}
