@@ -8,7 +8,7 @@ router.get('/', async (req, res) => {
     try
     {
         const posts = await Post.find();
-        res.json(posts);
+        res.json({posts});
     }
     catch(err)
     {
@@ -42,7 +42,7 @@ router.post('/', jsonParser, async (req, res) => {
     {
         const savedPost = await post.save();
         console.log(savedPost);
-        res.json(savedPost);
+        res.json({message: success})
     }
     catch(err)
     {

@@ -7,24 +7,20 @@ const jsonParser = bodyParser.json()
 router.get('/', async (req, res) => {
     try
     {
-        const posts = await Post.find();
-        res.json(posts);
-    }
-    catch(err)
-    {
-        res.json({message:err});
-    }
-});
-
-router.get('/:room_number', async (req, res) => {
-    try
-    {   
-        const post = await Post.find(
-            {
-                room: req.params.room_number,
-            }
-        );
-        res.json(post);
+        const test = await Post.findOne(
+                { $or:[
+                   {door: "open"},
+                   {door: "request"},
+                ]}
+        )
+        if (test == null)
+        {
+            res.json({"result": "accepted"});
+        }
+        else
+        {
+            res.json({"result": "rejected"});
+        }
     }
     catch(err)
     {
@@ -39,9 +35,20 @@ router.post('/', jsonParser, async (req, res) => {
     });
     try
     {
-        const savedPost = await post.save();
-        console.log(savedPost);
-        res.json(savedPost);
+        const test = await Post.findOne(
+            {room: req.body.room}
+        )
+
+        if (test == null)
+        {
+            const savedPost = await post.save();
+            console.log(savedPost);
+            res.json({"message": "The room is created"});
+        }
+        else
+        {
+            res.json({"message": "Room existed"})
+        }
     }
     catch(err)
     {
@@ -53,11 +60,41 @@ router.post('/', jsonParser, async (req, res) => {
 router.patch('/:room', jsonParser, async(req, res)=>{
     try
     {
-        const updatedPost = await Post.updateOne(
-            { _id: req.params.room },
-            {$set: {door: req.body.door}}
-        );
-        res.json(updatedPost);
+        if (req.body.door == "request")
+        {
+            const test = await Post.findOne(
+                { $or:[
+                   {door: "open"},
+                   {door: "request"},
+                ]}
+            )
+            if (test == null)
+            {
+                const updatedPost = await Post.updateOne(
+                    {
+                        type: "Door",
+                        room: req.params.room
+                    },
+                    {$set: {door: "request"}}
+                );
+                res.json({"message": "accepted"});
+            }
+            else
+            {
+                res.json({"message": "rejected"});
+            }
+        }
+        else
+        {
+            const updatedPost = await Post.updateOne(
+                {
+                    type: "Door",
+                    room: req.params.room
+                },
+                {$set: {door: req.body.door}}
+            );
+            res.json({"message": "success"});
+        }
     }
     catch(err)
     {

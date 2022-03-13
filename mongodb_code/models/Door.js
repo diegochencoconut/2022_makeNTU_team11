@@ -15,6 +15,7 @@ const DoorSchema = mongoose.Schema({
     {
         type: String,
         require: true,
+        //request, open, close
     },
     date:
     {

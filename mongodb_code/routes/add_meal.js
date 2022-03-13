@@ -41,7 +41,7 @@ router.post('/', jsonParser, async (req, res) => {
     {
         const savedPost = await post.save();
         console.log(savedPost);
-        res.json(savedPost);
+        res.send({"message": "success"})
     }
     catch(err)
     {

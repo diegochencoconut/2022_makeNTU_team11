@@ -10,6 +10,10 @@ app.use('/evaluation', evaluationRoute)
 app.use('/add_meal', addMealRoute)
 app.use('/door', doorRoute)
 
+app.get('/', (req, res) => {
+    res.send("Connect successfully!")
+})
+
 mongoose.connect(
     process.env.DB_CONNECTION,
     console.log('connected to DB!')

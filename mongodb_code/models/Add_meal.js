@@ -14,7 +14,7 @@ const AddmealSchema = mongoose.Schema({
     order:
     {
         type: String,
-        default: "Vegetarian",
+        required: true,
     },
     date:
     {
