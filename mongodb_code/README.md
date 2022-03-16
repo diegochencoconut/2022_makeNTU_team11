@@ -106,3 +106,15 @@ code example
 If everything work successfully, you will receive following messages:
 1. If NO ONE ELSE open the door, you will receive `{"message": "accepted"}`
 2. If SOMEONE open the door, you will receive `{"message": "rejected"}`
+
+## How to get data from JSON by python?
+We are going to use the library *json*, which is already installed with python.
+
+On above examples, `r.text` is a json string. We need to use following code:
+
+    #Assume that r.text is {"message": "accepted"}
+    received = json.loads(r.text)
+    message = received["message"]
+    print(message)
+
+The code above should print `accepted`
