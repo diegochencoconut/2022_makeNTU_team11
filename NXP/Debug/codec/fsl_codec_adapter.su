@@ -1,0 +1,10 @@
+fsl_codec_adapter.c:37:10:HAL_CODEC_Init	8	static
+fsl_codec_adapter.c:58:10:HAL_CODEC_Deinit	8	static
+fsl_codec_adapter.c:74:10:HAL_CODEC_SetFormat	8	static
+fsl_codec_adapter.c:90:10:HAL_CODEC_SetVolume	8	static
+fsl_codec_adapter.c:109:10:HAL_CODEC_SetMute	8	static
+fsl_codec_adapter.c:128:10:HAL_CODEC_SetPower	8	static
+fsl_codec_adapter.c:153:10:HAL_CODEC_SetRecordChannel	0	static
+fsl_codec_adapter.c:166:10:HAL_CODEC_SetRecord	0	static
+fsl_codec_adapter.c:179:10:HAL_CODEC_SetPlay	0	static
+fsl_codec_adapter.c:194:10:HAL_CODEC_ModuleControl	0	static

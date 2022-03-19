@@ -1,0 +1,3 @@
+dhcp_server.c:173:13:dhcp_thread	40	static
+dhcp_server.c:152:6:start_dhcp_server	16	static
+dhcp_server.c:158:6:quit_dhcp_server	0	static

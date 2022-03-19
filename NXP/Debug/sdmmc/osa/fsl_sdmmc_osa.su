@@ -1,0 +1,8 @@
+fsl_sdmmc_osa.c:28:6:SDMMC_OSAInit	0	static
+fsl_sdmmc_osa.c:38:10:SDMMC_OSAEventCreate	8	static
+fsl_sdmmc_osa.c:54:10:SDMMC_OSAEventWait	32	static
+fsl_sdmmc_osa.c:83:10:SDMMC_OSAEventSet	8	static
+fsl_sdmmc_osa.c:99:10:SDMMC_OSAEventGet	8	static
+fsl_sdmmc_osa.c:115:10:SDMMC_OSAEventClear	8	static
+fsl_sdmmc_osa.c:128:10:SDMMC_OSAEventDestroy	8	static
+fsl_sdmmc_osa.c:139:6:SDMMC_OSADelay	0	static

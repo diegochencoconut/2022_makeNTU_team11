@@ -1,0 +1,6 @@
+fsl_xbara.c:82:6:XBARA_Init	8	static
+fsl_xbara.c:97:6:XBARA_Deinit	8	static
+fsl_xbara.c:121:6:XBARA_SetSignalsConnection	16	static
+fsl_xbara.c:148:10:XBARA_GetStatusFlags	0	static
+fsl_xbara.c:165:6:XBARA_ClearStatusFlags	8	static
+fsl_xbara.c:206:6:XBARA_SetOutputSignalConfig	24	static

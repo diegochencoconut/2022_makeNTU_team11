@@ -1,0 +1,13 @@
+wwd_buffer.c:63:14:internal_host_buffer_get.part.0	16	static
+wwd_buffer.c:48:14:wwd_buffer_init	0	static
+wwd_buffer.c:55:14:host_buffer_check_leaked	0	static
+wwd_buffer.c:63:14:internal_host_buffer_get	8	static
+wwd_buffer.c:108:14:host_buffer_get	8	static
+wwd_buffer.c:114:6:host_buffer_release	0	static
+wwd_buffer.c:122:24:host_buffer_get_current_piece_data_pointer	0	static
+wwd_buffer.c:128:10:host_buffer_get_current_piece_size	0	static
+wwd_buffer.c:134:57:host_buffer_get_next_piece	0	static
+wwd_buffer.c:140:14:host_buffer_add_remove_at_front	8	static
+wwd_buffer.c:152:14:host_buffer_set_size	0	static
+wwd_buffer.c:167:14:host_buffer_pool_is_full	16	static
+wwd_buffer.c:183:6:memp_free_notify	0	static

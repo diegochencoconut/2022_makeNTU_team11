@@ -1,0 +1,8 @@
+acd.c:315:1:acd_restart	16	static
+acd.c:118:1:acd_add	16	static
+acd.c:153:1:acd_start	16	static
+acd.c:181:1:acd_stop	0	static
+acd.c:198:1:acd_network_changed_link_down	0	static
+acd.c:211:1:acd_tmr	24	static
+acd.c:347:1:acd_arp_reply	40	static
+acd.c:496:1:acd_netif_ip_addr_changed	32	static

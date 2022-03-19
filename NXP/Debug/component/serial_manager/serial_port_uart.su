@@ -1,0 +1,10 @@
+serial_port_uart.c:68:13:Serial_UartCallback	24	static
+serial_port_uart.c:128:25:Serial_UartInit	40	static
+serial_port_uart.c:196:25:Serial_UartDeinit	16	static
+serial_port_uart.c:223:25:Serial_UartWrite	16	static
+serial_port_uart.c:294:25:Serial_UartCancelWrite	24	static
+serial_port_uart.c:327:25:Serial_UartInstallTxCallback	8	static
+serial_port_uart.c:343:25:Serial_UartInstallRxCallback	8	static
+serial_port_uart.c:359:6:Serial_UartIsrFunction	8	static
+serial_port_uart.c:371:25:Serial_UartEnterLowpower	8	static
+serial_port_uart.c:387:25:Serial_UartExitLowpower	8	static

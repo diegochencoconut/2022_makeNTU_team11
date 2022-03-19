@@ -1,0 +1,4 @@
+sln_app_fwupdate.c:22:16:FICA_clr_bits	520	static
+sln_app_fwupdate.c:58:9:FWUpdate_set_SLN_OTA	0	static
+sln_app_fwupdate.c:64:9:FWUpdate_set_SLN_OTW	0	static
+sln_app_fwupdate.c:72:25:FWUpdate_check_start_command	16	static

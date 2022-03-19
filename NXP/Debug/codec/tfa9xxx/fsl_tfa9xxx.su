@@ -1,0 +1,16 @@
+fsl_tfa9xxx.c:723:5:TFA9XXX_DspExecuteCommand	56	static
+fsl_tfa9xxx.c:154:10:TFA9XXX_Start	8	static
+fsl_tfa9xxx.c:178:10:TFA9XXX_Stop	8	static
+fsl_tfa9xxx.c:202:10:TFA9XXX_Reset	8	static
+fsl_tfa9xxx.c:127:10:TFA9XXX_Deinit	8	static
+fsl_tfa9xxx.c:225:10:TFA9XXX_SetMute	8	static
+fsl_tfa9xxx.c:252:10:TFA9XXX_CreatePlatform	24	static
+fsl_tfa9xxx.c:359:10:TFA9XXX_CheckCalibrationStatus	24	static
+fsl_tfa9xxx.c:413:10:TFA9XXX_CalibrateSpeakerBoost	16	static
+fsl_tfa9xxx.c:456:10:TFA9XXX_HardcodeCalibrationValue	64	static
+fsl_tfa9xxx.c:305:10:TFA9XXX_PreStartConfigure	24	static
+fsl_tfa9xxx.c:52:10:TFA9XXX_Init	16	static
+fsl_tfa9xxx.c:574:10:TFA9XXX_ConfigDataFormat	8	static
+fsl_tfa9xxx.c:595:10:TFA9XXX_SetVolume	16	static
+fsl_tfa9xxx.c:639:10:TFA9XXX_SetPlayChannel	40	static
+fsl_tfa9xxx.c:697:10:TFA9XXX_GetStatus	8	static

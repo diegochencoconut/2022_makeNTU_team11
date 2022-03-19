@@ -1,0 +1,4 @@
+wwd_wifi_chip_common.c:48:19:wwd_wlan_bus_complete_ds_wake	0	static
+wwd_wifi_chip_common.c:59:14:wwd_wlan_register_read	8	static
+wwd_wifi_chip_common.c:76:14:wwd_wlan_register_write	8	static
+wwd_wifi_chip_common.c:90:14:wwd_wlan_shared_memory_read	8	static

@@ -1,0 +1,5 @@
+wwd_eapol.c:77:6:wwd_eapol_receive_eapol_packet	0	static
+wwd_eapol.c:92:10:wwd_eapol_get_eapol_data	0	static
+wwd_eapol.c:97:10:wwd_get_eapol_packet_size	0	static
+wwd_eapol.c:102:14:wwd_eapol_register_receive_handler	0	static
+wwd_eapol.c:112:6:wwd_eapol_unregister_receive_handler	0	static

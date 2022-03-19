@@ -1,0 +1,5 @@
+sln_tcp_server.c:88:13:ota_server_callback	0	static
+sln_tcp_server.c:58:14:netconn_write_blocking	32	static
+sln_tcp_server.c:110:14:send_error_code	40	static
+sln_tcp_server.c:272:13:TCP_OTA_Server	48	static
+sln_tcp_server.c:357:6:TCP_OTA_Server_Start	24	static

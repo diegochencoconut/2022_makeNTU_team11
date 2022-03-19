@@ -1,0 +1,3 @@
+switch.c:28:6:GPIO2_Combined_0_15_IRQHandler	24	static
+switch.c:90:6:SWITCH_Init	24	static
+switch.c:116:6:SWITCH_RegisterCallback	0	static

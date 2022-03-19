@@ -1,0 +1,4 @@
+wwd_management.c:85:14:wwd_management_wifi_platform_init	16	static
+wwd_management.c:142:14:wwd_management_wifi_platform_init_halt	8	static
+wwd_management.c:157:14:wwd_management_wifi_on	32	static
+wwd_management.c:386:14:wwd_management_wifi_off	16	static

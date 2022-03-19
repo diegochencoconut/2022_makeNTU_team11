@@ -1,0 +1,11 @@
+fsl_shell.c:171:13:SHELL_WriteBuffer	32	static
+fsl_shell.c:893:16:SHELL_RegisterCommand	16	static
+fsl_shell.c:907:16:SHELL_UnregisterCommand	8	static
+fsl_shell.c:919:16:SHELL_Write	16	static
+fsl_shell.c:802:16:SHELL_Init	24	static
+fsl_shell.c:495:23:SHELL_ExitCommand	8	static
+fsl_shell.c:475:23:SHELL_HelpCommand	24	static
+fsl_shell.c:605:13:SHELL_GetHistoryCommand.part.0	32	static
+fsl_shell.c:504:13:SHELL_ProcessCommand	544	static
+fsl_shell.c:964:5:SHELL_Printf	20	static
+fsl_shell.c:140:13:SHELL_SerialManagerRxCallback	56	static

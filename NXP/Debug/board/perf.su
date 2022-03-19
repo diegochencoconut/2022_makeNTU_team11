@@ -1,0 +1,5 @@
+perf.c:17:6:PERF_InitTimer	24	static
+perf.c:36:10:PERF_GetTimer	0	static
+perf.c:41:6:PERF_PrintCPU	8	static
+perf.c:47:6:PERF_PrintHeap	8	static
+perf.c:52:6:PERF_PrintStack	8	static

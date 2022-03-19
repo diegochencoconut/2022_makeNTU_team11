@@ -1,0 +1,2 @@
+clock_config.c:174:6:BOARD_BootClockRUN	48	static
+clock_config.c:48:6:BOARD_InitBootClocks	0	static

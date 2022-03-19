@@ -1,0 +1,3 @@
+sln_RT10xx_RGB_LED_driver_pwm.c:19:10:RGB_LED_Init	80	static
+sln_RT10xx_RGB_LED_driver_pwm.c:111:6:RGB_LED_SetColor	24	static
+sln_RT10xx_RGB_LED_driver_pwm.c:181:6:RGB_LED_SetBrightnessColor	24	static

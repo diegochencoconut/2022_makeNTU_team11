@@ -1,0 +1,6 @@
+tcp_in.c:1906:1:tcp_parseopt	40	static
+tcp_in.c:600:1:tcp_input_delayed_close	8	static
+tcp_in.c:1092:1:tcp_free_acked_segments.isra.0	40	static
+tcp_in.c:1145:1:tcp_receive	32	static
+tcp_in.c:118:1:tcp_input	64	static
+tcp_in.c:2026:1:tcp_trigger_input_pcb_close	0	static

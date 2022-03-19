@@ -1,0 +1,2 @@
+wwd_debug.c:56:6:wwd_init_stats	0	static
+wwd_debug.c:63:14:wwd_print_stats	0	static

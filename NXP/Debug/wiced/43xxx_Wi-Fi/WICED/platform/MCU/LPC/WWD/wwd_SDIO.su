@@ -1,0 +1,13 @@
+wwd_SDIO.c:139:13:SDIOCARD_DetectCallBack	0	static
+wwd_SDIO.c:439:7:host_platform_sdio_irq_callback	8	static
+wwd_SDIO.c:145:14:host_enable_oob_interrupt	0	static
+wwd_SDIO.c:155:14:host_platform_unmask_sdio_interrupt	0	static
+wwd_SDIO.c:166:9:host_platform_get_oob_interrupt_pin	0	static
+wwd_SDIO.c:173:14:host_platform_bus_init	16	static
+wwd_SDIO.c:277:14:host_platform_bus_deinit	0	static
+wwd_SDIO.c:282:14:host_platform_sdio_transfer	88	static
+wwd_SDIO.c:209:14:host_platform_sdio_enumerate	72	static
+wwd_SDIO.c:352:14:host_platform_enable_high_speed_sdio	8	static
+wwd_SDIO.c:419:14:host_platform_bus_enable_interrupt	0	static
+wwd_SDIO.c:425:14:host_platform_bus_disable_interrupt	0	static
+wwd_SDIO.c:431:6:host_platform_bus_buffer_freed	0	static

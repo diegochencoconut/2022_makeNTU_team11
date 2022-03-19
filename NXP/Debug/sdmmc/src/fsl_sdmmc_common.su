@@ -1,0 +1,6 @@
+fsl_sdmmc_common.c:30:10:SDMMC_SelectCard	64	static
+fsl_sdmmc_common.c:59:10:SDMMC_SendApplicationCommand	64	static
+fsl_sdmmc_common.c:84:10:SDMMC_SetBlockCount	64	static
+fsl_sdmmc_common.c:104:10:SDMMC_GoIdle	56	static
+fsl_sdmmc_common.c:121:10:SDMMC_SetBlockSize	64	static
+fsl_sdmmc_common.c:141:10:SDMMC_SetCardInactive	56	static

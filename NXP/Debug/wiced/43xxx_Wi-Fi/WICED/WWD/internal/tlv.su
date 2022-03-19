@@ -1,0 +1,5 @@
+tlv.c:71:14:tlv_find_tlv8	4	static
+tlv.c:97:15:tlv_find_tlv16	24	static
+tlv.c:125:14:tlv_read_value	16	static
+tlv.c:151:10:tlv_write_value	24	static
+tlv.c:173:10:tlv_write_header	16	static

@@ -1,0 +1,6 @@
+os_hooks.c:26:6:vApplicationStackOverflowHook	8	static
+os_hooks.c:41:6:vApplicationDaemonTaskStartupHook	0	static
+os_hooks.c:55:6:vApplicationMallocFailedHook	8	static
+os_hooks.c:63:7:pvPortCalloc	16	static
+os_hooks.c:79:6:vApplicationGetIdleTaskMemory	8	static
+os_hooks.c:105:6:vApplicationGetTimerTaskMemory	8	static

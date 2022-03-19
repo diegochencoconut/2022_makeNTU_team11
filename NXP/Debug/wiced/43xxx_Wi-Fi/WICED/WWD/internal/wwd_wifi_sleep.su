@@ -1,0 +1,9 @@
+wwd_wifi_sleep.c:202:7:wwd_wifi_event_ulp_handler	8	static
+wwd_wifi_sleep.c:108:14:wwd_wifi_wowl_enable	32	static
+wwd_wifi_sleep.c:161:6:wwd_wifi_ds1_get_status_string	24	static
+wwd_wifi_sleep.c:188:14:wwd_wifi_ds1_set_state_change_callback	4	static
+wwd_wifi_sleep.c:197:23:wwd_wifi_ds1_get_state	0	static
+wwd_wifi_sleep.c:240:14:wwd_wifi_enter_ds1	24	static
+wwd_wifi_sleep.c:276:14:wwd_wifi_wowl_disable	16	static
+wwd_wifi_sleep.c:224:14:wwd_wifi_ds1_disable	8	static
+wwd_wifi_sleep.c:289:14:wwd_wifi_ds1_wake_handle	24	static

@@ -1,0 +1,5 @@
+sln_RT10xx_RGB_LED_driver.c:14:32:RGB_LED_Init	0	static
+sln_RT10xx_RGB_LED_driver.c:20:28:RGB_LED_SetColor	0	static
+sln_RT10xx_RGB_LED_driver.c:25:28:RGB_LED_SetBrightnessColor	0	static
+sln_RT10xx_RGB_LED_driver.c:30:6:RGB_LED_Blink	16	static
+sln_RT10xx_RGB_LED_driver.c:51:6:ErrorBlinkLED	8	static

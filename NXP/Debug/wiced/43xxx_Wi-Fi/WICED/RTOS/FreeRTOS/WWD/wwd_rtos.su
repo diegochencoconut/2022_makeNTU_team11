@@ -1,0 +1,17 @@
+wwd_rtos.c:83:14:host_rtos_create_thread_with_arg	24	static
+wwd_rtos.c:78:14:host_rtos_create_thread	32	static
+wwd_rtos.c:115:14:host_rtos_create_configed_thread	4	static
+wwd_rtos.c:128:14:host_rtos_finish_thread	8	static
+wwd_rtos.c:143:14:host_rtos_join_thread	8	static
+wwd_rtos.c:163:14:host_rtos_delete_terminated_thread	0	static
+wwd_rtos.c:181:14:host_rtos_init_semaphore	8	static
+wwd_rtos.c:190:14:host_rtos_init_binary_semaphore	8	static
+wwd_rtos.c:216:14:host_rtos_get_semaphore	8	static
+wwd_rtos.c:249:14:host_rtos_set_semaphore	16	static
+wwd_rtos.c:288:14:host_rtos_deinit_semaphore	8	static
+wwd_rtos.c:306:12:host_rtos_get_time	0	static
+wwd_rtos.c:325:14:host_rtos_delay_milliseconds	8	static
+wwd_rtos.c:352:14:host_rtos_init_queue	8	static
+wwd_rtos.c:368:14:host_rtos_push_to_queue	32	static
+wwd_rtos.c:393:14:host_rtos_pop_from_queue	32	static
+wwd_rtos.c:420:14:host_rtos_deinit_queue	8	static

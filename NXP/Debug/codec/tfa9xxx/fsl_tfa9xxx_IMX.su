@@ -1,0 +1,9 @@
+fsl_tfa9xxx_IMX.c:60:17:TFA9XXX_I2C_Transfer	56	static
+fsl_tfa9xxx_IMX.c:38:6:tfa2_i2c_trace	0	static
+fsl_tfa9xxx_IMX.c:100:5:tfa2_i2c_write_read_raw	32	static
+fsl_tfa9xxx_IMX.c:133:5:tfa2_i2c_write_raw	16	static
+fsl_tfa9xxx_IMX.c:149:7:TFA9XXX_GetI2CClient	0	static
+fsl_tfa9xxx_IMX.c:192:6:TFA9XXX_WaitMS	0	static
+fsl_tfa9xxx_IMX.c:205:10:TFA9XXX_ConvertErrorCode	0	static
+fsl_tfa9xxx_IMX.c:260:10:TFA9XXX_GetDSPMessageBuffer	8	static
+fsl_tfa9xxx_IMX.c:266:6:TFA9XXX_NOP	0	static

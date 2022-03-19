@@ -1,0 +1,11 @@
+pkparse.c:527:12:pk_get_rsapubkey	64	static
+pkparse.c:461:12:pk_use_ecparams	16	static
+pkparse.c:582:12:pk_get_pk_alg	40	static
+pkparse.c:690:12:asn1_get_nonzero_mpi	16	static
+pkparse.c:709:12:pk_parse_key_pkcs1_der	48	static
+pkparse.c:866:12:pk_parse_key_sec1_der	64	static
+pkparse.c:1004:12:pk_parse_key_pkcs8_unencrypted_der	56	static
+pkparse.c:1099:12:pk_parse_key_pkcs8_encrypted_der	80	static
+pkparse.c:615:5:mbedtls_pk_parse_subpubkey	56	static
+pkparse.c:1219:5:mbedtls_pk_parse_key	64	static
+pkparse.c:1432:5:mbedtls_pk_parse_public_key	72	static

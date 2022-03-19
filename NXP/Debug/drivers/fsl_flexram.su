@@ -1,0 +1,2 @@
+fsl_flexram.c:69:6:FLEXRAM_Init	8	static
+fsl_flexram.c:88:6:FLEXRAN_Deinit	8	static

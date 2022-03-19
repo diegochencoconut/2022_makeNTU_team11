@@ -1,0 +1,16 @@
+fsl_pwm.c:91:10:PWM_Init	24	static
+fsl_pwm.c:191:6:PWM_Deinit	16	static
+fsl_pwm.c:220:6:PWM_GetDefaultConfig	8	static
+fsl_pwm.c:270:10:PWM_SetupPwm	64	static
+fsl_pwm.c:514:6:PWM_UpdatePwmDutycycleHighAccuracy	24	static
+fsl_pwm.c:486:6:PWM_UpdatePwmDutycycle	16	static
+fsl_pwm.c:610:6:PWM_SetupInputCapture	24	static
+fsl_pwm.c:692:6:PWM_SetupFaultInputFilter	8	static
+fsl_pwm.c:716:6:PWM_SetupFaults	24	static
+fsl_pwm.c:804:6:PWM_FaultDefaultConfig	8	static
+fsl_pwm.c:832:6:PWM_SetupForceSignal	8	static
+fsl_pwm.c:856:6:PWM_EnableInterrupts	4	static
+fsl_pwm.c:872:6:PWM_DisableInterrupts	8	static
+fsl_pwm.c:887:10:PWM_GetEnabledInterrupts	0	static
+fsl_pwm.c:905:10:PWM_GetStatusFlags	0	static
+fsl_pwm.c:923:6:PWM_ClearStatusFlags	0	static

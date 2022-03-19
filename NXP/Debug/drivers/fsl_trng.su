@@ -1,0 +1,4 @@
+fsl_trng.c:1292:10:TRNG_GetDefaultConfig	12	static
+fsl_trng.c:1772:10:TRNG_Init	24	static
+fsl_trng.c:1827:6:TRNG_Deinit	8	static
+fsl_trng.c:1862:10:TRNG_GetRandomData	24	static

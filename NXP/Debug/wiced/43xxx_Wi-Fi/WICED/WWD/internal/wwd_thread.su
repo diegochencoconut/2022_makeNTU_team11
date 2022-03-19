@@ -1,0 +1,8 @@
+wwd_thread.c:112:14:wwd_thread_init	16	static
+wwd_thread.c:164:8:wwd_thread_send_one_packet	24	static
+wwd_thread.c:209:8:wwd_thread_receive_one_packet	16	static
+wwd_thread.c:316:13:wwd_thread_func	24	static
+wwd_thread.c:243:8:wwd_thread_poll_all	8	static
+wwd_thread.c:256:6:wwd_thread_quit	8	static
+wwd_thread.c:281:6:wwd_thread_notify_irq	0	static
+wwd_thread.c:292:6:wwd_thread_notify	0	static

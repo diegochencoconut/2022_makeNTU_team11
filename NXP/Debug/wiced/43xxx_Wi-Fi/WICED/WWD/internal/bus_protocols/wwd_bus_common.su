@@ -1,0 +1,16 @@
+wwd_bus_common.c:115:6:wwd_bus_wlan_set_delayed_bus_powersave_milliseconds	0	static
+wwd_bus_common.c:130:6:wwd_delayed_bus_release_schedule_update	0	static
+wwd_bus_common.c:195:19:wwd_bus_platform_mcu_power_save_deep_sleep_enabled	0	static
+wwd_bus_common.c:137:10:wwd_bus_handle_delayed_release	16	static
+wwd_bus_common.c:200:6:wwd_bus_init_backplane_window	0	static
+wwd_bus_common.c:278:11:wwd_bus_set_resource_download_halt	0	static
+wwd_bus_common.c:444:19:wwd_bus_set_backplane_window	16	static
+wwd_bus_common.c:352:21:download_resource	72	static
+wwd_bus_common.c:206:19:wwd_bus_write_wifi_firmware_image	0	static
+wwd_bus_common.c:218:19:wwd_bus_write_wifi_nvram_image	16	static
+wwd_bus_common.c:480:19:wwd_bus_resume_after_deep_sleep	0	static
+wwd_bus_common.c:486:14:wwd_bus_transfer_backplane_bytes	64	static
+wwd_bus_common.c:562:11:wwd_bus_init_stats	0	static
+wwd_bus_common.c:567:19:wwd_bus_print_stats	8	static
+wwd_bus_common.c:575:19:wwd_bus_wake_interrupt_present	0	static
+wwd_bus_common.c:581:19:wwd_bus_reinit	0	static

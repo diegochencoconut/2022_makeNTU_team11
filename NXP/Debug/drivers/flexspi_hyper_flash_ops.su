@@ -1,0 +1,10 @@
+flexspi_hyper_flash_ops.c:33:10:flexspi_nor_hyperbus_read	32	static
+flexspi_hyper_flash_ops.c:55:10:flexspi_nor_hyperbus_write	32	static
+flexspi_hyper_flash_ops.c:77:10:flexspi_nor_write_enable	24	static
+flexspi_hyper_flash_ops.c:94:10:flexspi_nor_wait_bus_busy	40	static
+flexspi_hyper_flash_ops.c:138:10:flexspi_nor_flash_erase_sector	32	static
+flexspi_hyper_flash_ops.c:265:10:flexspi_nor_flash_page_program_with_buffer	48	static
+flexspi_hyper_flash_ops.c:313:10:flexspi_nor_read_vcr	32	static
+flexspi_hyper_flash_ops.c:346:10:flexspi_nor_write_vcr	48	static
+flexspi_hyper_flash_ops.c:375:10:flexspi_nor_hyperflash_cfi	184	static
+flexspi_hyper_flash_ops.c:437:10:flexspi_nor_hyperflash_id	192	static

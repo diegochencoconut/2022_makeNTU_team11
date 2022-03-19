@@ -1,0 +1,6 @@
+wwd_platform.c:124:14:host_platform_init	8	static
+wwd_platform.c:140:14:host_platform_deinit	0	static
+wwd_platform.c:147:6:host_platform_reset_wifi	8	static
+wwd_platform.c:163:6:host_platform_power_wifi	0	static
+wwd_platform.c:168:14:host_platform_init_wlan_powersave_clock	0	static
+wwd_platform.c:181:14:host_platform_is_in_interrupt_context	0	static

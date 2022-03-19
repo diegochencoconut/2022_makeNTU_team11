@@ -1,0 +1,5 @@
+wwd_ap_common.c:52:6:wwd_wifi_set_ap_is_up	0	static
+wwd_ap_common.c:61:14:wwd_wifi_get_ap_is_up	0	static
+wwd_ap_common.c:66:14:wwd_wifi_set_block_ack_window_size_common	16	static
+wwd_ap_common.c:89:14:wwd_wifi_set_ampdu_parameters_common	16	static
+wwd_ap_common.c:103:14:wwd_wifi_set_chanspec	32	static

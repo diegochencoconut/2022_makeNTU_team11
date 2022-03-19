@@ -1,0 +1,11 @@
+gcm.c:219:13:gcm_mult	56	static
+gcm.c:544:6:mbedtls_gcm_free.part.0	8	static
+gcm.c:92:6:mbedtls_gcm_init	0	static
+gcm.c:166:5:mbedtls_gcm_setkey	88	static
+gcm.c:275:5:mbedtls_gcm_starts	80	static
+gcm.c:362:5:mbedtls_gcm_update	96	static
+gcm.c:425:5:mbedtls_gcm_finish	56	static
+gcm.c:467:5:mbedtls_gcm_crypt_and_tag	40	static
+gcm.c:500:5:mbedtls_gcm_auth_decrypt	80	static
+gcm.c:544:6:mbedtls_gcm_free	0	static
+gcm.c:782:5:mbedtls_gcm_self_test	608	static

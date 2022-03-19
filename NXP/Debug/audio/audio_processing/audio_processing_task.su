@@ -1,0 +1,6 @@
+audio_processing_task.c:97:6:audio_processing_set_app_task_handle	0	static
+audio_processing_task.c:105:6:audio_processing_set_task_handle	0	static
+audio_processing_task.c:110:14:audio_processing_get_task_handle	0	static
+audio_processing_task.c:115:6:audio_processing_set_mic_input_buffer	0	static
+audio_processing_task.c:123:6:audio_processing_set_amp_input_buffer	0	static
+audio_processing_task.c:131:6:audio_processing_task	56	static

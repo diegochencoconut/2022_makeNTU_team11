@@ -1,0 +1,12 @@
+serial_port_usb.c:289:21:USB_DeviceCdcVcomCallback	32	static
+serial_port_usb.c:628:6:USB_OTG2_IRQHandler	8	static
+serial_port_usb.c:644:6:USB_OTG1_IRQHandler	8	static
+serial_port_usb.c:757:25:Serial_UsbCdcInit	24	static
+serial_port_usb.c:800:25:Serial_UsbCdcDeinit	8	static
+serial_port_usb.c:820:25:Serial_UsbCdcWrite	16	static
+serial_port_usb.c:876:25:Serial_UsbCdcRead	16	static
+serial_port_usb.c:544:21:USB_DeviceCallback	16	static
+serial_port_usb.c:929:25:Serial_UsbCdcCancelWrite	8	static
+serial_port_usb.c:941:25:Serial_UsbCdcInstallTxCallback	8	static
+serial_port_usb.c:957:25:Serial_UsbCdcInstallRxCallback	8	static
+serial_port_usb.c:973:6:Serial_UsbCdcIsrFunction	8	static

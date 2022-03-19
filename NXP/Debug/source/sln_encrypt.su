@@ -1,0 +1,5 @@
+sln_encrypt.c:69:9:SLN_Encrypt_Init_Slot	0	static
+sln_encrypt.c:100:9:SLN_Encrypt_Deinit_Slot	16	static
+sln_encrypt.c:122:9:SLN_Encrypt_AES_CBC_PKCS7	64	static
+sln_encrypt.c:189:9:SLN_Decrypt_AES_CBC_PKCS7	64	static
+sln_encrypt.c:274:9:SLN_Crc	24	static

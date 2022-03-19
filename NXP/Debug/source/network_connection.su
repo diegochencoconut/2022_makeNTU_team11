@@ -1,0 +1,13 @@
+network_connection.c:261:6:wifi_connect_update_handler	8	static
+network_connection.c:37:28:APP_Wifi_UX_Callback	0	static
+network_connection.c:70:12:get_mqtt_connection_backoff	4	static
+network_connection.c:82:6:APP_Connect_Update_Handler_Set	0	static
+network_connection.c:87:11:get_ipaddress	0	static
+network_connection.c:92:6:get_connect_state	0	static
+network_connection.c:381:6:APP_NETWORK_Init	8	static
+network_connection.c:388:10:APP_NETWORK_Wifi_Connect	152	static
+network_connection.c:497:6:APP_NETWORK_Uninit	8	static
+network_connection.c:97:10:APP_NETWORK_Re_Link	8	static
+network_connection.c:506:10:APP_NETWORK_Wifi_StartAP	56	static
+network_connection.c:554:10:APP_NETWORK_Wifi_StopAP	8	static
+network_connection.c:580:10:APP_NETWORK_Wifi_CheckCred	112	static

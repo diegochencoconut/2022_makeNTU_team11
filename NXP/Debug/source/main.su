@@ -1,0 +1,8 @@
+main.c:99:6:switch_callback	24	static
+main.c:330:13:led_state_success	8	static
+main.c:220:17:audio_play_clip	16	static
+fsl_clock.h:1027:20:CLOCK_SetDiv	8	static
+main.c:298:17:announce_demo	8	static
+main.c:358:6:appTask	88	static
+main.c:126:6:SysTick_DelayTicks	0	static
+main.c:815:6:main	48	static

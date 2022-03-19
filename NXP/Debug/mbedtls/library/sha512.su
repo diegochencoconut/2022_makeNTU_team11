@@ -1,0 +1,15 @@
+sha512.c:95:6:mbedtls_sha512_init	0	static
+sha512.c:102:6:mbedtls_sha512_free	0	static
+sha512.c:110:6:mbedtls_sha512_clone	8	static
+sha512.c:122:5:mbedtls_sha512_starts_ret	8	static
+sha512.c:161:6:mbedtls_sha512_starts	0	static
+sha512.c:217:5:mbedtls_internal_sha512_process	880	static
+sha512.c:305:5:mbedtls_sha512_update_ret.part.0	48	static
+sha512.c:294:6:mbedtls_sha512_process	0	static
+sha512.c:305:5:mbedtls_sha512_update_ret	0	static
+sha512.c:355:6:mbedtls_sha512_update	0	static
+sha512.c:366:5:mbedtls_sha512_finish_ret	24	static
+sha512.c:432:6:mbedtls_sha512_finish	0	static
+sha512.c:446:5:mbedtls_sha512_ret	240	static
+sha512.c:476:6:mbedtls_sha512	0	static
+sha512.c:560:5:mbedtls_sha512_self_test	320	static

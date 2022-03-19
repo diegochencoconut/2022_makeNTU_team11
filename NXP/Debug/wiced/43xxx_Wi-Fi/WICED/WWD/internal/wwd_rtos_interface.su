@@ -1,0 +1,2 @@
+wwd_rtos_interface.c:54:14:host_rtos_register_timer_ifc	0	static
+wwd_rtos_interface.c:65:14:host_rtos_unregister_timer_ifc	0	static

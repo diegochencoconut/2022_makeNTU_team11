@@ -1,0 +1,16 @@
+fsl_sai_edma.c:92:13:SAI_TxEDMACallback	24	static
+fsl_sai_edma.c:114:13:SAI_RxEDMACallback	24	static
+fsl_sai_edma.c:149:6:SAI_TransferTxCreateHandleEDMA	40	static
+fsl_sai_edma.c:190:6:SAI_TransferRxCreateHandleEDMA	40	static
+fsl_sai_edma.c:233:6:SAI_TransferTxSetFormatEDMA	16	static
+fsl_sai_edma.c:274:6:SAI_TransferTxSetConfigEDMA	16	static
+fsl_sai_edma.c:317:6:SAI_TransferRxSetFormatEDMA	16	static
+fsl_sai_edma.c:358:6:SAI_TransferRxSetConfigEDMA	16	static
+fsl_sai_edma.c:400:10:SAI_TransferSendEDMA	64	static
+fsl_sai_edma.c:467:10:SAI_TransferReceiveEDMA	64	static
+fsl_sai_edma.c:530:6:SAI_TransferAbortSendEDMA	16	static
+fsl_sai_edma.c:570:6:SAI_TransferAbortReceiveEDMA	16	static
+fsl_sai_edma.c:610:6:SAI_TransferTerminateSendEDMA	8	static
+fsl_sai_edma.c:635:6:SAI_TransferTerminateReceiveEDMA	8	static
+fsl_sai_edma.c:660:10:SAI_TransferGetSendCountEDMA	24	static
+fsl_sai_edma.c:689:10:SAI_TransferGetReceiveCountEDMA	24	static

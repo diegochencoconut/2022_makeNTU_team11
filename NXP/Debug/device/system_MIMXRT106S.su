@@ -1,0 +1,3 @@
+system_MIMXRT106S.c:130:6:SystemCoreClockUpdate	16	static
+system_MIMXRT106S.c:236:29:SystemInitHook	0	static
+system_MIMXRT106S.c:67:6:SystemInit	16	static

@@ -1,0 +1,17 @@
+fsl_flexspi.c:123:10:FLEXSPI_GetInstance	8	static
+fsl_flexspi.c:196:10:FLEXSPI_CheckAndClearError	8	static
+fsl_flexspi.c:941:6:FLEXSPI_TransferHandleIRQ	24	static
+fsl_flexspi.c:242:6:FLEXSPI_Init	24	static
+fsl_flexspi.c:335:6:FLEXSPI_GetDefaultConfig	16	static
+fsl_flexspi.c:389:6:FLEXSPI_Deinit	0	static
+fsl_flexspi.c:406:6:FLEXSPI_SetFlashConfig	16	static
+fsl_flexspi.c:508:6:FLEXSPI_UpdateLUT	16	static
+fsl_flexspi.c:540:6:FLEXSPI_UpdateRxSampleClock	0	static
+fsl_flexspi.c:569:10:FLEXSPI_WriteBlocking	32	static
+fsl_flexspi.c:628:10:FLEXSPI_ReadBlocking	40	static
+fsl_flexspi.c:715:10:FLEXSPI_TransferBlocking	24	static
+fsl_flexspi.c:782:6:FLEXSPI_TransferCreateHandle	24	static
+fsl_flexspi.c:823:10:FLEXSPI_TransferNonBlocking	24	static
+fsl_flexspi.c:900:10:FLEXSPI_TransferGetCount	8	static
+fsl_flexspi.c:927:6:FLEXSPI_TransferAbort	8	static
+fsl_flexspi.c:1052:6:FLEXSPI_DriverIRQHandler	8	static

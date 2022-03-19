@@ -1,0 +1,12 @@
+tfa2_init.c:320:12:tfa9878_init	8	static
+tfa2_init.c:236:12:tfa9874_init	8	static
+tfa2_init.c:120:12:tfa9872_init	8	static
+tfa2_init.c:376:12:tfa9912_init	8	static
+tfa2_init.c:14:12:tfa9894_init	16	static
+tfa2_init.c:195:12:tfa9873_init	8	static
+tfa2_init.c:77:5:tfa9894_tfa_mtp_write_wrapper	32	static
+tfa2_init.c:558:5:tfa2_init_mtp_write_wrapper	40	static
+tfa2_init.c:612:5:tfa2_init_fix_powerup	24	static
+tfa2_init.c:632:5:tfa2_init_fix_initcf	8	static
+tfa2_init.c:658:5:tfa2_init_fix_powerdown	8	static
+tfa2_init.c:685:5:tfa2_dev_specific	16	static

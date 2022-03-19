@@ -1,0 +1,17 @@
+sln_flash_mgmt.c:219:16:calc_crc_32	40	static
+sln_flash_mgmt.c:247:16:get_file_data	24	static
+sln_flash_mgmt.c:280:16:set_file_data	16	static
+sln_flash_mgmt.c:310:16:write_file	24	static
+sln_flash_mgmt.c:339:16:init_ram_crc_mirror	72	static
+sln_flash_mgmt.c:438:16:garbage_collector	48	static
+sln_flash_mgmt.c:562:9:SLN_FLASH_MGMT_Init	32	static
+sln_flash_mgmt.c:648:9:SLN_FLASH_MGMT_Save	40	static
+sln_flash_mgmt.c:813:9:SLN_FLASH_MGMT_Update	32	static
+sln_flash_mgmt.c:959:9:SLN_FLASH_MGMT_ReadDataPtr	32	static
+sln_flash_mgmt.c:1081:9:SLN_FLASH_MGMT_Read	40	static
+sln_flash_mgmt.c:1270:9:SLN_FLASH_MGMT_Erase	32	static
+sln_flash_mgmt.c:1311:9:SLN_FLASH_MGMT_Deinit	24	static
+sln_flash_mgmt.c:1365:9:SLN_FLASH_MGMT_SetCbs	0	static
+sln_flash_mgmt.c:98:16:set_file_size_info	0	static
+sln_flash_mgmt.c:59:16:get_file_info_from_name	24	static
+sln_flash_mgmt.c:139:16:get_sector_file_map	24	static

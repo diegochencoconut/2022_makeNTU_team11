@@ -1,0 +1,9 @@
+wwd_chip_specific_functions.c:258:21:wwd_is_fw_sr_capable	16	static
+wwd_chip_specific_functions.c:277:21:wwd_kso_enable	32	static
+wwd_chip_specific_functions.c:90:14:wwd_bus_is_up	0	static
+wwd_chip_specific_functions.c:120:14:wwd_wifi_set_custom_country_code	0	static
+wwd_chip_specific_functions.c:126:14:wwd_chip_specific_init	16	static
+wwd_chip_specific_functions.c:135:14:wwd_chip_specific_socsram_init	8	static
+wwd_chip_specific_functions.c:143:14:wwd_ensure_wlan_bus_is_up	24	static
+wwd_chip_specific_functions.c:95:14:wwd_wifi_read_wlan_log	24	static
+wwd_chip_specific_functions.c:191:14:wwd_allow_wlan_bus_to_sleep	0	static

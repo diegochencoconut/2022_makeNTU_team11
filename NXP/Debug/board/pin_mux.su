@@ -1,0 +1,14 @@
+pin_mux.c:68:6:BOARD_InitSwitches	24	static
+pin_mux.c:147:6:BOARD_InitMicrophone	32	static
+pin_mux.c:266:6:BOARD_InitEthernet	16	static
+pin_mux.c:429:6:BOARD_InitFlash	24	static
+pin_mux.c:636:6:BOARD_InittJtag	12	static
+pin_mux.c:675:6:BOARD_InitLPI2C	16	static
+pin_mux.c:729:6:BOARD_InitLPSPI	16	static
+pin_mux.c:805:6:BOARD_InitLPUART	16	static
+pin_mux.c:853:6:BOARD_InitBootConfig	24	static
+pin_mux.c:907:6:BOARD_InitWifi	24	static
+pin_mux.c:982:6:BOARD_InitBluetooth	24	static
+pin_mux.c:1102:6:BOARD_InitAudioOut	16	static
+pin_mux.c:1203:6:BOARD_InitLED	16	static
+pin_mux.c:35:6:BOARD_InitBootPins	16	static

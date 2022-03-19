@@ -1,0 +1,3 @@
+wwd_resources.c:94:19:resource_read	8	static
+wwd_resources.c:166:14:host_platform_resource_size	0	static
+wwd_resources.c:215:14:host_platform_resource_read_indirect	24	static
