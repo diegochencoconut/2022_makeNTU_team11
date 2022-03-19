@@ -4,6 +4,12 @@ const Post = require('../models/Door');
 const bodyParser = require('body-parser')
 const jsonParser = bodyParser.json()
 
+//for line notify
+const axios = require('axios')
+
+const webhook_url = 'https://notify-api.line.me/api/notify'
+const oauthToken = '0JrO6qg1us2orgoBQBisrtB28mh9SE3OCoKYVSLRMlf'
+
 router.get('/', async (req, res) => {
     try
     {
@@ -82,6 +88,39 @@ router.patch('/:room', jsonParser, async(req, res)=>{
             {
                 res.json({"message": "rejected"});
             }
+        }
+        else if (req.body.door == "open")
+        {
+            const test = await Post.findOne(
+                { $and:[
+                    {room: req.params.room},
+                    {door: "request"},
+                 ]}
+            )
+            if (test == null)   //open without allow
+            {             
+                //Post to line server
+                const data = new URLSearchParams();
+                var content = `Room ${req.params.room} open the door without permission!`
+                data.append('message', content);
+                axios
+                .post(webhook_url, data, {
+                    headers: {
+                    'content-type': 'application/x-www-form-urlencoded;charset=utf-8',
+                    'Authorization': 'Bearer ' + oauthToken
+                }})
+                .catch(error => {
+                    console.error(error)
+                })
+            }
+            const updatedPost = await Post.updateOne(
+                {
+                    type: "Door",
+                    room: req.params.room
+                },
+                {$set: {door: req.body.door}}
+            );
+            res.json({"message": "success"});
         }
         else
         {
