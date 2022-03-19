@@ -72,7 +72,7 @@ Data format:
 code example:
     url = preurl + "door/*your room number*"
     data = {'door": "open'}  #remember to adjust the data
-    r = requests.post(url, data=json.dumps(data), headers=headers)
+    r = requests.patch(url, data=json.dumps(data), headers=headers)
     print(r.text)
 
 If everything work successfully, you will receive `{"message": "success"}`
@@ -85,7 +85,7 @@ Data format:
 code example:
     url = preurl + "door/*your room number*"
     data = {'door": "request'}
-    r = requests.post(url, data=json.dumps(data), headers=headers)
+    r = requests.patch(url, data=json.dumps(data), headers=headers)
     print(r.text)
 
 If everything work successfully, you will receive following messages:
@@ -100,7 +100,7 @@ No data required.
 
 code example
     url = preurl + "door"
-    r = requests.post(url, headers = headers)
+    r = requests.get(url, headers = headers)
     print(r.text)
 
 If everything work successfully, you will receive following messages:
