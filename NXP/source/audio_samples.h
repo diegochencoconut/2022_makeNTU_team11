@@ -51,7 +51,11 @@
 #define LED_DEMO_CLIP_SIZE        49536
 #define SMART_HOME_DEMO_CLIP_SIZE 94080
 #define WASH_DEMO_CLIP_SIZE       103584
-
+#define HOW_ARE_YOU_SIZE          70217
+#define CONFIRM_SIZE			  85264
+#define EAT_WHAT_SIZE			  65202
+#define TEMPERATURE_FLOAT_SIZE    60186
+#define TEMPERATURE_INT_SIZE	  125388
 /*******************************************************************************
  * Global Vars
  ******************************************************************************/
@@ -64,7 +68,11 @@ extern const short elevator_demo_clip[ELEVATOR_DEMO_CLIP_SIZE];
 extern const short led_demo_clip[LED_DEMO_CLIP_SIZE];
 extern const short smart_home_demo_clip[SMART_HOME_DEMO_CLIP_SIZE];
 extern const short wash_demo_clip[WASH_DEMO_CLIP_SIZE];
-
+extern const short how_are_you_clip[HOW_ARE_YOU_SIZE];
+extern const short confirm_clip[CONFIRM_SIZE];
+extern const short eat_what_clip[EAT_WHAT_SIZE];
+extern const short temperature_float_clip[TEMPERATURE_FLOAT_SIZE];
+extern const short temperature_int_clip[TEMPERATURE_INT_SIZE];
 /*******************************************************************************
  * End
  ******************************************************************************/

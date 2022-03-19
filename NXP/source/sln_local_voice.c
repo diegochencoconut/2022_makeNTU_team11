@@ -26,6 +26,7 @@
 #include "task.h"
 #include "queue.h"
 
+#include "audio_samples.h"
 /*******************************************************************************
  * Definitions
  ******************************************************************************/
@@ -73,6 +74,9 @@ app_asr_shell_commands_t appAsrShellCommands                      = {};
 /*!
  * @brief Utility function to extract indices from bitwise variable. this is used for asr_inference_t.
  */
+
+amplifier_status_t ret1;
+
 static unsigned int decode_bitshift(unsigned int x)
 {
     unsigned int y = 1; // starting from index 1 (not 0)
@@ -810,14 +814,16 @@ void local_voice_task(void *arg)
 								cmdString                  = cmd_condition_zh;
 								set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_CONDITION, cmdString);
 								asrEvent = ASR_SESSION_STARTED;
-								xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								ret1 = SLN_AMP_Write((uint8_t *)how_are_you_clip, sizeof(how_are_you_clip));
 							}
 							else if (g_asrControl.result.keywordID[1] == 1) // set timer
 							{
 								cmdString                  = cmd_meal_zh;
 								set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_MEAL, cmdString);
 								asrEvent = ASR_SESSION_STARTED;
-								xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								ret1 = SLN_AMP_Write((uint8_t *)eat_what_clip, sizeof(eat_what_clip));
 							}
 							else if (g_asrControl.result.keywordID[1] <= 4) // set timer
 							{
@@ -833,7 +839,8 @@ void local_voice_task(void *arg)
 								cmdString                  = cmd_temperature_zh;
 								set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_TEMPERATURE, cmdString);
 								asrEvent = ASR_SESSION_STARTED;
-								xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								ret1 = SLN_AMP_Write((uint8_t *)temperature_int_clip, sizeof(temperature_int_clip));
                         	}
                         	break;
                         case ASR_CMD_TEMPERATURE:
@@ -844,7 +851,8 @@ void local_voice_task(void *arg)
 								cmdString                  = cmd_float_num_zh;
 								set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_FLOAT_NUM, cmdString);
 								asrEvent = ASR_SESSION_STARTED;
-								xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								ret1 = SLN_AMP_Write((uint8_t *)temperature_float_clip, sizeof(temperature_float_clip));
+								//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
 							}
 							break;
                         case ASR_CMD_FLOAT_NUM:
@@ -855,7 +863,8 @@ void local_voice_task(void *arg)
 								cmdString                  = cmd_confirm_zh;
 								set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_CONFIRM, cmdString);
 								asrEvent = ASR_SESSION_STARTED;
-								xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								ret1 = SLN_AMP_Write((uint8_t *)confirm_clip, sizeof(confirm_clip));
+								//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
 							}
                         	break;
                         case ASR_CMD_CONFIRM:
@@ -866,7 +875,8 @@ void local_voice_task(void *arg)
 								cmdString                  = cmd_temperature_zh;
 								set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_TEMPERATURE, cmdString);
 								asrEvent = ASR_SESSION_STARTED;
-								xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								ret1 = SLN_AMP_Write((uint8_t *)temperature_int_clip, sizeof(temperature_int_clip));
+								//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
 							}
                         	else if(g_asrControl.result.keywordID[1] == 0)
                         	{
@@ -878,7 +888,8 @@ void local_voice_task(void *arg)
 							cmdString                  = cmd_confirm_meal_zh;
 							set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_CONFIRM_MEAL, cmdString);
 							asrEvent = ASR_SESSION_STARTED;
-                        	xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+							ret1 = SLN_AMP_Write((uint8_t *)confirm_clip, sizeof(confirm_clip));
+                        	//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
                         	break;
                         case ASR_CMD_CONFIRM_MEAL:
                         	if(g_asrControl.result.keywordID[1] == 1)
@@ -888,7 +899,8 @@ void local_voice_task(void *arg)
 								cmdString                  = cmd_meal_zh;
 								set_CMD_engine(&g_asrControl, ASR_CHINESE, ASR_CMD_MEAL, cmdString);
 								asrEvent = ASR_SESSION_STARTED;
-								xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
+								ret1 = SLN_AMP_Write((uint8_t *)eat_what_clip, sizeof(eat_what_clip));
+								//xTaskNotify(appTaskHandle, kCommandGeneric, eSetBits);
 							}
                         	else if(g_asrControl.result.keywordID[1] == 0)
                         	{

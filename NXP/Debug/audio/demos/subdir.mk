@@ -5,26 +5,41 @@
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
 ../audio/demos/audio.c \
+../audio/demos/confirm.c \
 ../audio/demos/dialog.c \
+../audio/demos/eat_what.c \
 ../audio/demos/elevator.c \
+../audio/demos/how_are_you.c \
 ../audio/demos/led.c \
 ../audio/demos/smart_home.c \
+../audio/demos/temperature_float.c \
+../audio/demos/temperature_int.c \
 ../audio/demos/wash.c 
 
 OBJS += \
 ./audio/demos/audio.o \
+./audio/demos/confirm.o \
 ./audio/demos/dialog.o \
+./audio/demos/eat_what.o \
 ./audio/demos/elevator.o \
+./audio/demos/how_are_you.o \
 ./audio/demos/led.o \
 ./audio/demos/smart_home.o \
+./audio/demos/temperature_float.o \
+./audio/demos/temperature_int.o \
 ./audio/demos/wash.o 
 
 C_DEPS += \
 ./audio/demos/audio.d \
+./audio/demos/confirm.d \
 ./audio/demos/dialog.d \
+./audio/demos/eat_what.d \
 ./audio/demos/elevator.d \
+./audio/demos/how_are_you.d \
 ./audio/demos/led.d \
 ./audio/demos/smart_home.d \
+./audio/demos/temperature_float.d \
+./audio/demos/temperature_int.d \
 ./audio/demos/wash.d 
 
 

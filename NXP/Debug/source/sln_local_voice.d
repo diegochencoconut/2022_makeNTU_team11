@@ -52,7 +52,8 @@ source/sln_local_voice.o source/sln_local_voice.d: \
  C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\freertos\freertos_kernel\include/timers.h \
  C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\freertos\freertos_kernel\include/task.h \
  C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\drivers/fsl_edma.h \
- C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\freertos\freertos_kernel\include/queue.h
+ C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\freertos\freertos_kernel\include/queue.h \
+ ../source/audio_samples.h
 
 ../source/sln_local_voice.h:
 
@@ -165,3 +166,5 @@ C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\freertos\fr
 C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\drivers/fsl_edma.h:
 
 C:\Users\user\Documents\MCUXpressoIDE_11.3.1_5262\workspace\uhuademo\freertos\freertos_kernel\include/queue.h:
+
+../source/audio_samples.h:
